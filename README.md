@@ -14,6 +14,7 @@ Veritabanı
 - Aynı yapıyı ef code first olarak sadece model bazında oluşturun
 
 
+# 3. Hafta Ödev
 1.Db oluşturdum.
   - Teachers tablosuna veri eklemek için spCreate_Teacher
   - Educations tablosuna veri eklemek için spCreate_EDU
@@ -27,4 +28,5 @@ Veritabanı
 
 4.vwStudentListByEDU viewi bulunuyor.
 
-#BONUS ek ders işlendikten sonra yapılacak.
+# Bonus
+ek ders işlendikten sonra yapılacak.
