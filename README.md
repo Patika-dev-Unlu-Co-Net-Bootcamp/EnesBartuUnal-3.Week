@@ -15,11 +15,11 @@ Veritabanı
 
 
 1.Db oluşturdum.
-  -Teachers tablosuna veri eklemek için spCreate_Teacher
-  -Educations tablosuna veri eklemek için spCreate_EDU
-  -her hangi bir eğitim için yoklama oluşturmak için spCreate_RollCall
+  - Teachers tablosuna veri eklemek için spCreate_Teacher
+  - Educations tablosuna veri eklemek için spCreate_EDU
+  - her hangi bir eğitim için yoklama oluşturmak için spCreate_RollCall
   -eğitimler ile öğrencileri ilişkilendirmek için spAddStudentToEdu
-  -bir öğrenci için yoklama almak için spTake_RollCall stored procedurelerini kullanılabilir.
+  - bir öğrenci için yoklama almak için spTake_RollCall stored procedurelerini kullanılabilir.
   
 2.STUDENTS_ROLLCALLS tablosu altında tgSuccessStatusUpdate after triggeri var.Bu tabloya insert işleminden sonra EDU_STUDENTS tablosundaki SuccesStatus propunu yüze biçiminde güncelliyor.
 
