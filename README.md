@@ -12,3 +12,19 @@ Veritabanı
 
 # Bonus
 - Aynı yapıyı ef code first olarak sadece model bazında oluşturun
+
+
+1.Db oluşturdum.
+  Teachers tablosuna veri eklemek için spCreate_Teacher
+  Educations tablosuna veri eklemek için spCreate_EDU
+  her hangi bir eğitim için yoklama oluşturmak için spCreate_RollCall
+  eğitimler ile öğrencileri ilişkilendirmek için spAddStudentToEdu
+  bir öğrenci için yoklama almak için spTake_RollCall stored procedurelerini kullanılabilir.
+  
+2.STUDENTS_ROLLCALLS tablosu altında tgSuccessStatusUpdate after triggeri var.Bu tabloya insert işleminden sonra EDU_STUDENTS tablosundaki SuccesStatus propunu yüze biçiminde güncelliyor.
+
+3.spAddStudentToEdu stored proceduresi verilen kısıtlamaya uygun çalışıyor.
+
+4.vwStudentListByEDU viewi bulunuyor.
+
+#BONUS ek ders işlendikten sonra yapılacak.
