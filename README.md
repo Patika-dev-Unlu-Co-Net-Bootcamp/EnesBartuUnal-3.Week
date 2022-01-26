@@ -22,7 +22,7 @@ Veritabanı
   - eğitimler ile öğrencileri ilişkilendirmek için spAddStudentToEdu
   - bir öğrenci için yoklama almak için spTake_RollCall stored procedureleri kullanılabilir.
   
-2.STUDENTS_ROLLCALLS tablosu altında tgSuccessStatusUpdate after triggeri var.Bu tabloya insert işleminden sonra EDU_STUDENTS tablosundaki SuccesStatus propunu yüze biçiminde güncelliyor.
+2.STUDENTS_ROLLCALLS tablosu altında tgSuccessStatusUpdate after triggeri var.Bu tabloya insert işleminden sonra EDU_STUDENTS tablosundaki SuccesStatus propunu yüzde biçiminde güncelliyor.
 
 3.spAddStudentToEdu stored proceduresi verilen kısıtlamaya uygun çalışıyor.
 
